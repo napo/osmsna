@@ -7,8 +7,6 @@ import sys
 from osmers.graph import OSMNetGraph
 # *** settings ***
 
-
-GRAPHNAME = 'milano_more'
 # *** end settings ***
 
 # ***** logging module objects and definition *****

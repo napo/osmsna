@@ -78,7 +78,7 @@ class DBUsers():
     
     def create_interaction_table(self,oids):
     
-       self._create_tmp_interactions_table(self.engine)
+       self._create_tmp_interactions_table()
     
        interactions=self._fill_tmp_interactions_table(oids)
        
@@ -98,7 +98,7 @@ class DBUsers():
        		cur.execute(query)
        #con.commit()
        
-       self._drop_tmp_interactions_table(self.engine)
+       self._drop_tmp_interactions_table()
     
        return interactions
     
