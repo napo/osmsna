@@ -4,6 +4,7 @@ import requests
 class HDYC():
     BASEURL = "http://hdyc.neis-one.org/user/"
     def decode(self,a, c):
+      #a= a.replace("\\\\","\\")
       c = pow(10,-c)
       e = len(a)
       f = 0

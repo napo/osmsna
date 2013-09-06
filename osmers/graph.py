@@ -50,8 +50,8 @@ class OSMNetGraph():
 
             g.add_node(uid,label=uname)
             userdata = hdyc.user_data(uname)
-            x = 0
-            y = 0
+            x = -999
+            y = -999
             if userdata.has_key('activtyarea'):
                 todecript = userdata['activtyarea']
                 polygon =  hdyc.decode(todecript,5)
@@ -66,11 +66,11 @@ class OSMNetGraph():
                 if (x != ""):
                     x = float(x)
                 else:
-    				x = 0
+    		    x = -999
                 if (y != None):
                     y = float(y)
                 else:
-                    y = 0
+                    y = -999
             g.node[uid]['x'] = x
             g.node[uid]['y'] = y
             
