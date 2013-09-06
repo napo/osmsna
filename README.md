@@ -14,6 +14,8 @@ http://planet.openstreetmap.org/planet/full-history/
 
 4 - create the graph
 
- python netsosmers.py -s localhost -u dbuser -w dbpassword -d dbname -o graphfile 
+ python netsosmers.py -s localhost -u dbuser -w dbpassword -d dbname -c -o graphfile 
+ 
+ note: the "-c" calculate the interactions between user (this need time)
 
 5 - analyze the graph with a tool like gephi
