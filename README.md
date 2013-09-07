@@ -20,11 +20,14 @@ http://planet.openstreetmap.org/planet/full-history/
 
 ## some example outputs
 gefx file of the openstreetmap network of Trento - Italy
+
 https://github.com/napo/osmsna/raw/master/examples/trento.gexf
 
 image of the network in Trento - Italy
+
 https://raw.github.com/napo/osmsna/master/examples/trento_network.png
 
 viewer of the network in Trento - Italy
+
 http://napo.github.io/osmsna/
 
