@@ -18,7 +18,7 @@ node,way  osm_timestamp  text
 
 4 - import the data in postgis
 ```bash
-osm2pgsql -P 5433 -U dbuser -d dbname -m -x -k -S /path/of/osmsna.style file_history.osh
+osm2pgsql -P 5432 -U dbuser -W -d dbname -u -m -x -k -S /path/of/osmsna.style file_history.osh
 ```
 
 5 - create the graph
