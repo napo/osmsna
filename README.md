@@ -8,15 +8,26 @@ http://planet.openstreetmap.org/planet/full-history/
 
 2 - extract the area with osm-history-splitter
 
-3 - import the data in postgis
+3 - create the file osmsna.style with this informations
+```
+node,way  osm_user       text
+node,way  osm_uid        int8
+node,way  osm_version    int8
+node,way  osm_timestamp  text
+```
 
-4 - create the graph
+4 - import the data in postgis
+```bash
+osm2pgsql -P 5433 -U dbuser -d dbname -m -x -k -S /path/of/osmsna.style file_history.osh
+```
+
+5 - create the graph
 ```bash
  python netsosmers.py -s localhost -u dbuser -w dbpassword -d dbname -i -o graphfile -g gexf
 ```
  note: the "-i" calculate the interactions between user (this need time)
 
-5 - analyze the graph with a tool like gephi
+6 - analyze the graph with a tool like gephi
 
 ## some example outputs
 gefx file of the openstreetmap network of Trento - Italy
