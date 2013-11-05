@@ -45,5 +45,5 @@ image of the network in Trento - Italy
 
 
 ## Open Data License
-the data come from OpenStreetMap for this reason the dataset are licensed as ODbL - http://opendatacommons.org/licenses/odbl/
+the data come from OpenStreetMap for this reason the datasets produced from this software are licensed as ODbL - http://opendatacommons.org/licenses/odbl/
 
