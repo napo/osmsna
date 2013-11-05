@@ -43,3 +43,7 @@ image of the network in Trento - Italy
 
 ![trento osm network](https://raw.github.com/napo/osmsna/master/examples/trento_network.png)
 
+
+## Open Data License
+the data come from OpenStreetMap for this reason the dataset are licensed as ODbL - http://opendatacommons.org/licenses/odbl/
+
