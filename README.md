@@ -38,11 +38,12 @@ viewer of the network in Trento - Italy
 
 http://napo.github.io/osmsna/
 
-
 image of the network in Trento - Italy
 
 ![trento osm network](https://raw.github.com/napo/osmsna/master/examples/trento_network.png)
 
+## tell me more
+http://www.slideshare.net/napo/the-collaboration-network-in-osm-the-case-of-italy
 
 ## Open Data License
 the data come from OpenStreetMap for this reason the datasets produced from this software are licensed as ODbL - http://opendatacommons.org/licenses/odbl/
